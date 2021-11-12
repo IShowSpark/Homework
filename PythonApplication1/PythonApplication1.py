@@ -73,14 +73,64 @@
 
 
 
-a=input("Купи слона! ")
-while a.lower() !="слон":
-    a=input(f"Все говорят {a}, а ты купи!")
-print("Слон твой")
+#a=input("Купи слона! ")
+#while a.lower() !="слон":
+#    a=input(f"Все говорят {a}, а ты купи!")
+#print("Слон твой")
+
+#8zadanie
+#a=0
+#b=0
+#for c in range(20):
+#    a+=1
+#    b+=1
+#    a*=2.5
+#    print(f"{a} дюйм это {b} см")
+#    a/=2.5
+
+#17zadanie
+#z=int(input("Какое число?"))
+#for d in range(1,10):
+#    print(z,"*",d,"=",z*d)
+    
+
+#15zadanie
+#for d in range(1,10):
+#    for d in range(1,10):
+#        print(d,end=" ")
+#    print()
+
+#dopzadanie
+#for d in range(1,100):
+#    for c in range(1,10):
+#        print(f"{(d*c):2}",end=" ")
+#    print()
+
+#16zadanie
+#for d in range(1,10):
+#   for c in range(1,10):
+#       if d==c:
+#           print(c,end=" ")
+#       else:
+#           print("0",end=" ")
+#   print()
+
+#domashka 28 zadanie
+#import random
+#n=random.randint(1,20)
+#while True:
+#    a= int(input("Введите число, команда стоп для выхода: "))
+#    if text == "стоп":
+#        print("Пока", n)
+#        break
+#    elif text == n:
+#        print("Победа")
+#    else:
+#        print("Попробуйте еще")
 
 
 
-
+    
 
 
 
